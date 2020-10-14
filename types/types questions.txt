@@ -1,0 +1,16 @@
+x = 5
+
+1) What is the type of x?
+variable
+
+2) Name 3 things you can do to x?
+add, sub, mult
+
+3) Can I do 5 + "hello"? Explain
+bc string, diff types
+
+4) What does single equal (=) mean and what is it used for?
+assignment statement, to assign
+
+5) What is the difference between 5 and 5.0?
+int and float
