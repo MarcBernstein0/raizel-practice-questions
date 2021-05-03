@@ -1,4 +1,4 @@
-def fizzbuzz():
+def fizzbuzz(fizz, buzz):
     '''
         create a function called fizzbuzz
         rules: loop from 0 to 100
@@ -6,17 +6,26 @@ def fizzbuzz():
                if the value is a multiple of 5, print "buzz"
                if the value is a multiple of 3 and 5, print "fizzbuzz"
                if the value is not a multiple of either numbers then print the number itslef
-    '''
-    for x in range(1, 101):
-        if x % 3 == 0 and x % 5 == 0:
+    # '''
+    # for x in range(1, 101):
+    #     if x % 3 == 0 and x % 5 == 0:
+    #         print('fizzbuzz')
+    #     elif x % 3 == 0:
+    #         print('fizz')
+    #     elif x % 5 == 0:
+    #         print('buzz')
+    #     else:
+    #         print(x)
+
+    for x in range(1,101):
+        if x % fizz == 0 and x % buzz == 0:
             print('fizzbuzz')
-        elif x % 3 == 0:
+        elif x % fizz == 0:
             print('fizz')
-        elif x % 5 == 0:
+        elif x % buzz == 0:
             print('buzz')
         else:
             print(x)
 
-
-
-fizzbuzz()
+#fizzbuzz()
+fizzbuzz(2, 3)
